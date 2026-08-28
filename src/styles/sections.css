@@ -112,7 +112,7 @@
 }
 
 .customer-slot--image img {
-  max-height: 40px;
+  max-height: 72px;
   width: auto;
   max-width: 100%;
   object-fit: contain;

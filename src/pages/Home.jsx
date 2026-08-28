@@ -24,10 +24,12 @@ export default function Home() {
         <div className="container">
           <span className="eyebrow">Våra kunder</span>
           <div className="customers__row" style={{ marginTop: 24 }}>
-            {customerPlaceholders.map((name) => (
-              <div className="customer-slot" key={name}>{name}</div>
-            ))}
-          </div>
+  {customers.map((c) => (
+    <div className="customer-slot customer-slot--image" key={c.src}>
+      <img src={c.src} alt={c.alt} />
+    </div>
+  ))}
+</div>
           <p style={{ marginTop: 16, fontSize: 13 }}>
             Platshållare — ersätts med riktiga kundlogotyper.
           </p>

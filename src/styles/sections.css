@@ -105,6 +105,27 @@
   background: var(--bg);
 }
 
+.customer-slot--image {
+  border: 1px solid var(--border);
+  background: var(--bg-alt);
+  padding: 18px 24px;
+}
+
+.customer-slot--image img {
+  max-height: 40px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.75;
+  transition: filter 0.2s ease, opacity 0.2s ease;
+}
+
+.customer-slot--image:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
 .person-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));

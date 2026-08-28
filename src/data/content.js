@@ -81,4 +81,4 @@ export const openRoles = [
 ]
 
 // Platshållare tills riktiga kundlogotyper finns.
-export const customerPlaceholders = ['Kund A', 'Kund B', 'Kund C', 'Kund D', 'Kund E']
+export const customerPlaceholders = ['public/customers/logo-800x800-1.jpg.webp', 'public/customers/logo.webp', 'public/customers/ica.png', 'public/customers/grekiska.png', 'Kund E']

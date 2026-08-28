@@ -44,18 +44,18 @@ export const services = [
 // Namngivna personer visas med namn och titel, utan antal år.
 export const namedTeam = [
   {
-    name: 'Mark',
+    name: 'Mark A',
     title: 'Senior Advisor',
     text: 'Rådgivning i stort och smått — från teknikval till hur IT-driften ska växa med företaget.',
   },
   {
-    name: 'Beniamin',
-    title: 'IT Support Technician',
+    name: 'Beniamin M',
+    title: 'IT Technician',
     text: 'Första kontakten för användarna. Löser det som stör i vardagen, snabbt och tydligt.',
   },
   {
-    name: 'Daniel',
-    title: 'Cloud Support Engineer',
+    name: 'Daniel E',
+    title: 'Cloud Engineer',
     text: 'Ansvarar för att molnmiljön — Microsoft 365 och Azure — fungerar som den ska.',
   },
 ]

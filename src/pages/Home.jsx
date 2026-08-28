@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { services, customerPlaceholders } from '../data/content.js'
+import { services, customers } from '../data/content.js'
 
 export default function Home() {
   return (

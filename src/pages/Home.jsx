@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <section className="hero">
         <div className="container hero__content">
-          <span className="eyebrow">IT-drift &amp; molntjänster</span>
+          <span className="eyebrow">Extern IT-avdelning för små och medelstora företag</span>
           <h1>Er IT ska vara osynlig — tills ni behöver den.</h1>
           <p>
             BlackVault sköter helpdesk, Microsoft 365, Azure och nätverket åt er,

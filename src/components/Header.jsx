@@ -29,22 +29,24 @@ export default function Header() {
 
   return (
     <header className="site-header">
-      <div className="container site-header__row">
-        <NavLink to="/" className="wordmark" aria-label="BlackVault, till startsidan">
-          <VaultMark />
-          BLACKVAULT
-        </NavLink>
+      <div className="site-header__bar">
+        <div className="container site-header__row">
+          <NavLink to="/" className="wordmark" aria-label="BlackVault, till startsidan">
+            <VaultMark />
+            BLACKVAULT
+          </NavLink>
 
-        <button
-          className={`hamburger ${open ? 'is-open' : ''}`}
-          aria-label={open ? 'Stäng meny' : 'Öppna meny'}
-          aria-expanded={open}
-          onClick={() => setOpen((v) => !v)}
-        >
-          <span />
-          <span />
-          <span />
-        </button>
+          <button
+            className={`hamburger ${open ? 'is-open' : ''}`}
+            aria-label={open ? 'Stäng meny' : 'Öppna meny'}
+            aria-expanded={open}
+            onClick={() => setOpen((v) => !v)}
+          >
+            <span />
+            <span />
+            <span />
+          </button>
+        </div>
       </div>
 
       <div className={`menu-overlay ${open ? 'is-open' : ''}`}>
@@ -86,7 +88,7 @@ export default function Header() {
 
 function VaultMark() {
   return (
-    <svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true" className="vault-mark">
+    <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true" className="vault-mark">
       <circle cx="16" cy="16" r="14.5" fill="none" stroke="var(--navy)" strokeWidth="1.4" />
       <circle cx="16" cy="16" r="8" fill="none" stroke="var(--accent)" strokeWidth="1.4" />
       <circle cx="16" cy="16" r="1.6" fill="var(--accent)" />

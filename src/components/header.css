@@ -1,4 +1,9 @@
 .site-header {
+  position: relative;
+  z-index: 40;
+}
+
+.site-header__bar {
   position: sticky;
   top: 0;
   z-index: 40;
@@ -11,30 +16,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 76px;
+  height: 84px;
 }
 
 .wordmark {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   font-family: var(--font-mono);
   font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 0.08em;
+  font-size: 20px;
+  letter-spacing: 0.06em;
   text-decoration: none;
   color: var(--navy);
 }
 
 .vault-mark {
-  animation: vault-turn 16s linear infinite;
   transform-origin: 16px 16px;
-}
-
-@keyframes vault-turn {
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .hamburger {

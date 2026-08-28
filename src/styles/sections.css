@@ -91,8 +91,8 @@
 }
 
 .customer-slot {
-  flex: 1 1 160px;
-  min-height: 84px;
+  flex: 1 1 220px;
+  min-height: 160px;
   border: 1px dashed var(--border);
   border-radius: 6px;
   display: flex;
@@ -108,11 +108,11 @@
 .customer-slot--image {
   border: 1px solid var(--border);
   background: var(--bg-alt);
-  padding: 18px 24px;
+  padding: 28px;
 }
 
 .customer-slot--image img {
-  max-height: 72px;
+  max-height: 200px;
   width: auto;
   max-width: 100%;
   object-fit: contain;

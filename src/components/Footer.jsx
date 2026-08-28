@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container site-footer__row">
         <span className="eyebrow">BlackVault</span>
-        <p style={{ margin: 0 }}>© {new Date().getFullYear()} BlackVault — exempelsida.</p>
+        <p style={{ margin: 0 }}>© {new Date().getFullYear()} BlackVault</p>
       </div>
     </footer>
   )

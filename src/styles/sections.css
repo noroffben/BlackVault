@@ -16,7 +16,10 @@
 }
 @media (max-width: 480px) {
   .hero__content h1 {
-    font-size: 30px;
+    font-size: 26px;
+  }
+  .container {
+    padding: 0 16px;
   }
 }
 .hero__content p {

@@ -58,6 +58,11 @@ export const namedTeam = [
     title: 'Cloud Engineer',
     text: 'Ansvarar för att molnmiljön — Microsoft 365 och Azure — fungerar som den ska.',
   },
+  {
+  name: 'Nedal M',
+  title: 'IT Support Specialist',
+  text: 'Löpande drift och support i kundernas IT-miljöer.',
+},
 ]
 
 // Övriga roller/kompetenser i bolaget, visas utan namn.

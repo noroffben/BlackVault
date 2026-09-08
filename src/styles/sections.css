@@ -14,7 +14,11 @@
   font-size: clamp(38px, 6vw, 60px);
   margin-top: 16px;
 }
-
+@media (max-width: 480px) {
+  .hero__content h1 {
+    font-size: 30px;
+  }
+}
 .hero__content p {
   margin-top: 20px;
   font-size: 18px;

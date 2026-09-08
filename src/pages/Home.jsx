@@ -5,16 +5,18 @@ export default function Home() {
   return (
     <>
       <section className="hero">
-        <div className="container hero__content">
-          <span className="eyebrow">Extern IT-avdelning för små och medelstora företag</span>
-          <h1>Er IT ska vara osynlig — tills ni behöver den.</h1>
-          <p>
-            BlackVault sköter helpdesk, Microsoft 365, Azure och nätverket åt er,
-            så att teamet kan fokusera på jobbet istället för att felsöka det.
-          </p>
-          <div className="hero__actions">
-            <Link to="/kontakt" className="btn btn-primary">Kontakta oss</Link>
-            <Link to="/tjanster" className="btn btn-secondary">Se tjänster</Link>
+        <div className="container">
+          <div className="hero__content">
+            <span className="eyebrow">Extern IT-avdelning för små och medelstora företag</span>
+            <h1>Er IT ska vara osynlig — tills ni behöver den.</h1>
+            <p>
+              BlackVault sköter helpdesk, Microsoft 365, Azure och nätverket åt er,
+              så att teamet kan fokusera på jobbet istället för att felsöka det.
+            </p>
+            <div className="hero__actions">
+              <Link to="/kontakt" className="btn btn-primary">Kontakta oss</Link>
+              <Link to="/tjanster" className="btn btn-secondary">Se tjänster</Link>
+            </div>
           </div>
         </div>
         <DialGraphic />
@@ -24,14 +26,14 @@ export default function Home() {
         <div className="container">
           <span className="eyebrow">Våra kunder</span>
           <div className="customers__row" style={{ marginTop: 24 }}>
-  {customers.map((c) => (
-    <div className="customer-slot customer-slot--image" key={c.src}>
-      <img src={c.src} alt={c.alt} />
-    </div>
-  ))}
-</div>
+            {customers.map((c) => (
+              <div className="customer-slot customer-slot--image" key={c.src}>
+                <img src={c.src} alt={c.alt} />
+              </div>
+            ))}
+          </div>
           <p style={{ marginTop: 16, fontSize: 13 }}>
-            Platshållare — ersätts med riktiga kundlogotyper.
+            Fler kunder tillkommer löpande.
           </p>
         </div>
       </section>
